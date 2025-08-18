@@ -14,16 +14,14 @@ df=pd.DataFrame(data)
 print(df)
 
 # Adding new row to df for V2 :
-new_record={'Name': 'GF1', 'Age': 20, 'City': 'City1'}
-df.loc[len(df.index)]=new_record
+#new_record={'Name': 'GF1', 'Age': 20, 'City': 'City1'}
+#df.loc[len(df.index)]=new_record
 
-print("After appending new record for v2 : \n",df)
+# Adding new row to df for V3 :
+# new_record={'Name': 'GF2', 'Age': 30, 'City': 'City2'}
+# df.loc[len(df.index)]=new_record
 
-#Adding new row to df for V3 :
-new_record={'Name': 'GF2', 'Age': 30, 'City': 'City2'}
-df.loc[len(df.index)]=new_record
-
-print("After appending new record for v3 : \n",df)
+#print("After appending new record for v3 : \n",df)
 
 # Ensure that data dir exist before :
 data_dir="data_dir"
